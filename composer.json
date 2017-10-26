@@ -10,8 +10,7 @@
         "php": ">=5.3"
     },
     "require-dev": {
-        "webysther/composer-plugin-qa": "~1",
-        "webysther/composer-meta-qa": "~1"
+        "phpunit/phpunit": "@stable"
     },
     "suggest": {
         "hirak/prestissimo": "Composer parallel install plugin"

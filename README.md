@@ -2,7 +2,7 @@
 
 [![Build Status](https://goo.gl/7P7C7S)](https://travis-ci.org/PHPSnippets/CircularArray)
 [![Minimum PHP Version](https://goo.gl/D13jNg)](https://php.net/)
-[![Packagist](https://goo.gl/zvn8FH)](https://packagist.org/packages/PHPSnippets/CircularArray)
+[![Packagist](https://goo.gl/UmniMj)](https://packagist.org/packages/php-snippets/circular-array)
 [![Coverage Status](https://goo.gl/25u9F4)](https://scrutinizer-ci.com/g/PHPSnippets/CircularArray/code-structure)
 [![Quality Score](https://goo.gl/RXk1Jy)](https://scrutinizer-ci.com/g/PHPSnippets/CircularArray)
 [![Software License](https://goo.gl/QHtnq5)](LICENSE.md)
@@ -19,7 +19,9 @@ $ composer require php-snippets/circular-array
 
 ## Usage
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Circular_buffer_-_6789345.svg/500px-Circular_buffer_-_6789345.svg.png)
+| ![](https://goo.gl/HGcdfB) |
+|:---:|
+| <sub>Image: [Cburnett](https://goo.gl/fCsXZT)</sub> |
 
 From [Wikipedia](https://en.wikipedia.org/wiki/Circular_buffer):
 
@@ -48,8 +50,8 @@ The following versions of PHP are supported by this version.
 
 ## Testing
 
-``` bash
-$ composer qa:paratest
+```bash
+$ vendor/bin/phpunit
 ```
 
 ## Contributing

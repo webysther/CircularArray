@@ -24,8 +24,8 @@ We accept contributions via Pull Requests on [Github](https://github.com/PHPSnip
 
 ## Running Tests
 
-``` bash
-$ composer qa:paratest
+```bash
+$ vendor/bin/phpunit
 ```
 
 
