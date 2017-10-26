@@ -1,0 +1,25 @@
+{
+    "name": "php-snippets/circular-array",
+    "description": "Fixed circular array data structure",
+    "keywords": ["circular", "array"],
+    "license": "MIT",
+    "authors": [
+        { "name": "Webysther", "email": "websther@gmail.com" }
+    ],
+    "require": {
+        "php": ">=5.3",
+    },
+    "require-dev": {
+        "webysther/composer-plugin-qa": "~1",
+        "webysther/composer-meta-qa": "~1"
+    },
+    "suggest": {
+        "hirak/prestissimo": "Composer parallel install plugin"
+    },
+    "autoload": {
+        "psr-4": { "PHPSnippets\\DataStructures": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "PHPSnippets\\DataStructures": "tests/" }
+    }
+}
