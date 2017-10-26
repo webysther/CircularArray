@@ -2,7 +2,7 @@
 
 [![Build Status](https://goo.gl/7P7C7S)](https://travis-ci.org/PHPSnippets/CircularArray)
 [![Minimum PHP Version](https://goo.gl/D13jNg)](https://php.net/)
-[![Packagist](https://goo.gl/UmniMj)](https://packagist.org/packages/php-snippets/circular-array)
+[![Release](https://goo.gl/SpnYcX)](https://packagist.org/packages/php-snippets/circular-array)
 [![Coverage Status](https://goo.gl/25u9F4)](https://scrutinizer-ci.com/g/PHPSnippets/CircularArray/code-structure)
 [![Quality Score](https://goo.gl/RXk1Jy)](https://scrutinizer-ci.com/g/PHPSnippets/CircularArray)
 [![Software License](https://goo.gl/QHtnq5)](LICENSE.md)
