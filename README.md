@@ -17,6 +17,27 @@ Via Composer
 $ composer require php-snippets/circular-array
 ```
 
+## Usage
+
+From [Wikipedia](https://en.wikipedia.org/wiki/Circular_buffer):
+
+>A circular buffer, circular queue, cyclic buffer or ring buffer is a data structure that uses a single, 
+>fixed-size buffer as if it were connected end-to-end. 
+>This structure lends itself easily to buffering data streams.
+
+You can create an array where an interaction occurs indefinitely:
+
+```php
+use PHPSnippets\DataStructures\CircularArray;
+
+$circular = Circular::fromArray(array(1, 2, 3, 4));
+
+// this foreach never ends, after 4 back to 1.
+foreach($circular as $value){
+    echo $value;
+}
+```
+
 ## Requirements
 
 The following versions of PHP are supported by this version.
