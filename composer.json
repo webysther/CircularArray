@@ -1,7 +1,7 @@
 {
     "name": "php-snippets/circular-array",
     "description": "Fixed circular array data structure",
-    "keywords": ["circular", "array"],
+    "keywords": ["circular", "array", "fixed", "buffer", "cyclic", "queue", "data-structures"],
     "license": "MIT",
     "authors": [
         { "name": "Webysther", "email": "websther@gmail.com" }
