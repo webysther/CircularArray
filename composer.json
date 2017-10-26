@@ -17,9 +17,9 @@
         "hirak/prestissimo": "Composer parallel install plugin"
     },
     "autoload": {
-        "psr-4": { "PHPSnippets\\DataStructures": "src/" }
+        "psr-4": { "PHPSnippets\\DataStructures\\": "src/" }
     },
     "autoload-dev": {
-        "psr-4": { "PHPSnippets\\DataStructures": "tests/" }
+        "psr-4": { "PHPSnippets\\DataStructures\\": "tests/" }
     }
 }
