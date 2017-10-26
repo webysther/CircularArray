@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Packagist Mirror.
+ * This file is part of the PHP Snippets - Circular Array.
  *
  * For the full license information, please view the LICENSE.md
  * file that was distributed with this source code.
