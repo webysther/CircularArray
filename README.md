@@ -19,6 +19,8 @@ $ composer require php-snippets/circular-array
 
 ## Usage
 
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Circular_buffer_-_6789345.svg/500px-Circular_buffer_-_6789345.svg.png)
+
 From [Wikipedia](https://en.wikipedia.org/wiki/Circular_buffer):
 
 >A circular buffer, circular queue, cyclic buffer or ring buffer is a data structure that uses a single, 
