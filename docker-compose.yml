@@ -1,0 +1,64 @@
+version: '2'
+services:
+  php-base:
+    image: folha/workspace:php-5.3
+    volumes:
+      - .:/var/www
+      - /tmp:/srv
+      - /etc/hosts:/etc/_hosts
+      - ~/.ssh:/home/flying-horse/.ssh
+      - ~/.zsh_history:/home/flying-horse/_.zsh_history
+      - $SSH_AUTH_SOCK:/ssh-agent
+    hostname: workspace
+    dns:
+      - 10.20.214.18
+      - 8.8.8.8
+      - 9.9.9.9
+
+  php:
+    extends: php-base
+    depends_on:
+      - nginx
+      - redis
+      - memcached
+      - mysql
+
+  php-fpm:
+    extends: php-base
+    entrypoint: /etc/entrypoint-fpm.sh
+
+  nginx:
+    image: folha/workspace:nginx
+    volumes:
+      - .:/var/www
+    depends_on:
+      - php-fpm
+    links:
+      - php-fpm
+    expose:
+      - 80
+
+  redis:
+    image: redis:3.0-alpine
+
+  memcached:
+    image: memcached:alpine
+
+  mysql:
+    image: folha/mysql:strict-disabled
+    environment:
+      MYSQL_DATABASE: docker
+      MYSQL_ROOT_PASSWORD: pass
+
+# Para usar um ponto de montagem diferente
+#volumes:
+#  - /media/mysql:/var/lib/mysql
+
+# Para usar o banco na memória
+#tmpfs:
+#  /var/lib/mysql
+
+networks:
+  default:
+    external:
+      name: proxy

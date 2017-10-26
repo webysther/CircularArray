@@ -7,7 +7,7 @@
         { "name": "Webysther", "email": "websther@gmail.com" }
     ],
     "require": {
-        "php": ">=5.3",
+        "php": ">=5.3"
     },
     "require-dev": {
         "webysther/composer-plugin-qa": "~1",
