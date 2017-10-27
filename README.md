@@ -7,17 +7,6 @@
 [![Quality Score](https://goo.gl/RXk1Jy)](https://scrutinizer-ci.com/g/PHPSnippets/CircularArray)
 [![Software License](https://goo.gl/QHtnq5)](LICENSE.md)
 
-Fixed Circular Array
-
-## Install
-
-Via Composer
-
-``` bash
-$ composer require php-snippets/circular-array
-```
-
-## Usage
 
 | ![](https://goo.gl/HGcdfB) |
 |:---:|
@@ -28,6 +17,16 @@ From [Wikipedia](https://en.wikipedia.org/wiki/Circular_buffer):
 >A circular buffer, circular queue, cyclic buffer or ring buffer is a data structure that uses a single, 
 >fixed-size buffer as if it were connected end-to-end. 
 >This structure lends itself easily to buffering data streams.
+
+## Install
+
+Via Composer
+
+``` bash
+$ composer require php-snippets/circular-array
+```
+
+## Usage
 
 You can create an array where an interaction occurs indefinitely:
 
