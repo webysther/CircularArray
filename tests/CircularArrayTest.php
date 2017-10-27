@@ -24,6 +24,7 @@ class CircularArrayTest extends TestCase
         $sample = array(1, 2, 3, 4);
         $circular = Circular::fromArray($sample);
         $this->assertSame($sample, $circular->toArray());
+        $this->assertSame(count($sample), count($circular->toArray()));
     }
 
     public function testLooping()
