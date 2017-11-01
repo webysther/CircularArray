@@ -60,7 +60,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) and [CONDUCT](CONDUCT.md) for details
 ## Credits
 
 - [Webysther Nunes](https://github.com/Webysther)
-- [All Contributors](https://github.com/PHPSnippets/CircularArray/scontributors)
+- [All Contributors](https://github.com/PHPSnippets/CircularArray/contributors)
 
 ## License
 
