@@ -16,7 +16,8 @@ From [Wikipedia](https://en.wikipedia.org/wiki/Circular_buffer):
 
 >A [circular buffer](http://www.mathcs.emory.edu/~cheung/Courses/171/Syllabus/8-List/array-queue2.html), 
 >circular queue, cyclic buffer or ring buffer is a data structure that uses a single, 
->fixed-size buffer as if it were connected end-to-end. 
+>[fixed-size buffer](http://php.net/manual/pt_BR/class.splfixedarray.php) as if it 
+>were connected end-to-end.
 >This structure lends itself easily to buffering data streams.
 
 ## Install
